@@ -4,6 +4,7 @@ import Caracteristicas from '@/components/Caracteristicas';
 import EntornosAdaptables from '@/components/EntornosAdaptables';
 import Servicios from '@/components/Servicios';
 import MisionVision from '@/components/MisionVision';
+import Footer from '@/components/Footer';
 
 const Page = () => {
   return (
@@ -13,6 +14,7 @@ const Page = () => {
       <EntornosAdaptables />
       <Servicios />
       <MisionVision />
+      <Footer />
     </div>
   );
 }
